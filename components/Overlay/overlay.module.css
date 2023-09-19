@@ -1,0 +1,22 @@
+.overlay {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    z-index: 1;
+    pointer-events: none;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    object-fit: fill;
+}
+
+@media (max-width: 750px) {
+    .overlay {
+        padding: 0 !important;
+    }
+}
+
+.overlay * {
+    pointer-events: auto !important;
+}

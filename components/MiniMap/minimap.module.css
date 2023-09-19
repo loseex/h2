@@ -1,0 +1,30 @@
+.mini__map {
+    width: 100%;
+    height: 100vh;
+    max-height: 300px;
+    border-radius: 1rem;
+    display: flex;
+    margin-bottom: 32px;
+    pointer-events: none;
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    cursor: pointer;
+    pointer-events: auto !important;
+    transition: var(--transition);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    opacity: 0;
+}
+
+.overlay:hover {
+    background: var(--color-black-100);
+    transition: var(--color-black-100);
+    opacity: 25%;
+}

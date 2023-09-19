@@ -1,0 +1,88 @@
+.container {
+    width: 100%;
+    max-width: 560px !important;
+    background: var(--color-black-100);
+    color: var(--color-white-100);
+    border-radius: 0.7rem;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+    animation: on 1s ease-in-out;
+    z-index: 1;
+}
+
+@media (max-width: 750px) {
+    .container {
+        max-width: 100% !important;
+        border-radius: 0 !important;
+    }
+}
+
+.background {
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    background: linear-gradient(83.26deg, rgba(180, 65, 255, 0.87) -136.08%, rgba(104, 119, 255, 0) 78.12%);
+    animation: on 2s;
+}
+
+.container img {
+    max-width: 28px;
+}
+
+.container .close__button {
+    background: none;
+    border: 0;
+    color: var(--color-white-100);
+    transition: var(--transition);
+    font-size: 24px;
+    line-height: 20px;
+}
+
+.container .close__button:hover {
+    color: var(--color-white-50);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.container .banner__image {
+    width: 100% !important;
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.container p {
+    color: var(--color-white-50) !important;
+}
+
+.container .button {
+    width: 100%;
+    background: var(--color-herbal-100);
+    color: var(--color-white-100);
+    padding: 12px;
+    border: 0 !important;
+    border-radius: 0.3rem;
+    transition: var(--transition);
+}
+
+.container .button:hover {
+    background: var(--color-herbal-90);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+@keyframes on {
+    0% {
+        margin-left: -600px;
+    }
+    100% {
+        margin-left: 0;
+    }
+}

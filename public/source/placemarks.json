@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
+    "location": [38.58951116456342, 27.42723785082063],
+    "half": 1,
+    "info": {
+      "title": "qwdqwdqwdqwdqwdqwdqwd",
+      "description": "qwdwqdqwdqwdqwd",
+      "image": "https://egevpare.ru/wp-content/uploads/2021/02/shutterstock_137910917-scaled-1-2048x1414.jpg",
+      "date": "2023"
+    }
+  },
+  {
+    "id": 2,
+    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
+    "location": [30.58951116456342, 27.42723785082063],
+    "half": 2,
+    "info": {
+      "title": "",
+      "description": "",
+      "image": "https://egevpare.ru/wp-content/uploads/2021/02/shutterstock_137910917-scaled-1-2048x1414.jpg",
+      "date": "2023"
+    }
+  }
+]
