@@ -1,4 +1,4 @@
-import {Map, YMaps} from "@pbe/react-yandex-maps";
+import {Clusterer, Map, YMaps} from "@pbe/react-yandex-maps";
 import {MapConfig} from "./map.config";
 import {PropsWithChildren, useContext, useEffect, useRef, useState} from "react";
 import {Marker} from "../Marker/Marker";
@@ -40,9 +40,11 @@ export const MapComponent = () => {
     return (
         <YMaps query={{lang: "ru_RU"}}>
             <Map instanceRef={MapRef} {...MapConfig as PropsWithChildren} onLoad={() => onLoadMap()}>
-                {ShowPlaceMarks.map(point => (
-                    <Marker key={point.id} {...point} />
-                ))}
+                <Clusterer>
+                    {ShowPlaceMarks.map(point => (
+                        <Marker key={point.id} {...point} />
+                    ))}
+                </Clusterer>
             </Map>
         </YMaps>
     )
