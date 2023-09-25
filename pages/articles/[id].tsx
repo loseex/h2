@@ -16,9 +16,9 @@ export const getServerSideProps  = (async ({params}) => {
 })
 
 const ArticlePage = ({response}) => {
-    const [Point, setPoint] = useState([] || {} as PlacemarkType);
-
     const { query } = useRouter();
+
+    const [Point, setPoint] = useState([] || {} as PlacemarkType);
 
     useEffect(() => {
         setPoint(points.filter((item) => item.id == Number(query.id)) as PlacemarkType[]);
@@ -28,7 +28,7 @@ const ArticlePage = ({response}) => {
         <Main title={Point[0]?.info?.title || "Загрузка"}>
             <Center>
                 <MiniMap {...Point[0]} />
-                <ReactMarkdown children={response} remarkPlugins={[remarkGfm]} />
+                <ReactMarkdown className="markdown" children={response} remarkPlugins={[remarkGfm]} />
             </Center>
         </Main>
     )

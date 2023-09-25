@@ -7,8 +7,8 @@ export const Select = () => {
     return (
         <div>
             <select onChange={event => handlerOnChange(event.target.value)} className={style.select}>
-                <option value={1}>Первая</option>
-                <option value={2}>Вторая</option>
+                <option value={1}>Первая половина войны</option>
+                <option value={2}>Вторая половина войны</option>
             </select>
         </div>
     )

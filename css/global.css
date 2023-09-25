@@ -53,4 +53,14 @@
 body {
     background: var(--color-black-100);
     color: var(--color-white-100);
+    overflow: hidden;
+}
+
+.markdown h1 {
+    margin-bottom:1rem!important;
+}
+
+.markdown h3 {
+    font-size:18px!important;
+    margin-bottom:3rem!important
 }

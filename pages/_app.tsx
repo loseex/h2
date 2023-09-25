@@ -1,10 +1,10 @@
 import {createContext, useState} from "react";
 import {Preloader} from "../components/Preloader/Preloader";
+import {Provider} from "react-redux";
+import {store} from "../store/store";
 
 import "../css/global.css";
 import "../css/bootstrap.min.css";
-import {Provider} from "react-redux";
-import {store} from "../store/store";
 
 export const GlobalContext = createContext(null);
 

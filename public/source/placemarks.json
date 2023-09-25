@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
+    "icon": "https://www.svgrepo.com/show/347523/sword.svg",
     "location": [44.04634924072208, 26.612276085174358],
     "half": 1,
     "info": {
@@ -13,8 +13,8 @@
   },
   {
     "id": 2,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
-    "location": [48.29305619824039, 39.91323438056336],
+    "icon": "https://www.svgrepo.com/show/334363/walk.svg",
+    "location": [42.730317953918146, 44.630966431973526],
     "half": 1,
     "info": {
       "title": "Переход русских войск через русско-турецкую границу на Кавказе",
@@ -25,8 +25,8 @@
   },
   {
     "id": 3,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
-    "location": [39.55171591290298, 44.071774200122256],
+    "icon": "https://www.svgrepo.com/show/347523/sword.svg",
+    "location": [39.5547185016155, 44.068684935082395],
     "half": 1,
     "info": {
       "title": "Взятие Баязета",
@@ -37,8 +37,8 @@
   },
   {
     "id": 4,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
-    "location": [38.58951116456342, 27.42723785082063],
+    "icon": "https://www.svgrepo.com/show/532328/shield-alt-1.svg",
+    "location": [40.58781851778582, 43.10246855583467],
     "half": 1,
     "info": {
       "title": "Установление блокады Карса",
@@ -49,8 +49,8 @@
   },
   {
     "id": 5,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
-    "location": [40.59916214112512, 43.09165984595454],
+    "icon": "https://www.svgrepo.com/show/532328/shield-alt-1.svg",
+    "location": [39.55631797609181, 44.05014480828333],
     "half": 1,
     "info": {
       "title": "Оборона Баязета русским отрядом капитана Штоковича",
@@ -61,7 +61,7 @@
   },
   {
     "id": 6,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
+    "icon": "https://www.svgrepo.com/show/334363/walk.svg",
     "location": [43.62398326583218, 25.370443417204797],
     "half": 1,
     "info": {
@@ -73,7 +73,7 @@
   },
   {
     "id": 7,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
+    "icon": "https://www.svgrepo.com/show/334363/walk.svg",
     "location": [42.997414629445416, 25.114381203670522],
     "half": 1,
     "info": {
@@ -85,7 +85,7 @@
   },
   {
     "id": 8,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
+    "icon": "https://www.svgrepo.com/show/532328/shield-alt-1.svg",
     "location": [42.770702606649515, 25.315703128081275],
     "half": 1,
     "info": {
@@ -97,7 +97,7 @@
   },
   {
     "id": 9,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
+    "icon": "https://www.svgrepo.com/show/347523/sword.svg",
     "location": [43.42440848467567, 24.601144327296737],
     "half": 1,
     "info": {
@@ -109,7 +109,7 @@
   },
   {
     "id": 10,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
+    "icon": "https://www.svgrepo.com/show/532328/shield-alt-1.svg",
     "location": [43.40120382393237, 24.633913797227198],
     "half": 1,
     "info": {
@@ -121,7 +121,7 @@
   },
   {
     "id": 11,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
+    "icon": "https://www.svgrepo.com/show/347523/sword.svg",
     "location": [40.58928768016681, 43.12090526019918],
     "half": 1,
     "info": {
@@ -133,7 +133,7 @@
   },
   {
     "id": 12,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
+    "icon": "https://www.svgrepo.com/show/347523/sword.svg",
     "location": [43.39846019418992, 24.634597760625642],
     "half": 1,
     "info": {
@@ -145,7 +145,7 @@
   },
   {
     "id": 13,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
+    "icon": "https://www.svgrepo.com/show/334363/walk.svg",
     "location": [42.70514359493439, 23.702751045970526],
     "half": 1,
     "info": {
@@ -157,7 +157,7 @@
   },
   {
     "id": 14,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
+    "icon": "https://www.svgrepo.com/show/532328/shield-alt-1.svg",
     "location": [42.63651402105857, 23.396544637332042],
     "half": 1,
     "info": {
@@ -169,7 +169,7 @@
   },
   {
     "id": 15,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
+    "icon": "https://www.svgrepo.com/show/334363/walk.svg",
     "location": [42.75198347356736, 23.09218085493607],
     "half": 1,
     "info": {
@@ -181,7 +181,7 @@
   },
   {
     "id": 16,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
+    "icon": "https://www.svgrepo.com/show/347523/sword.svg",
     "location": [42.745423219421305, 25.318578481324302],
     "half": 1,
     "info": {
@@ -193,7 +193,7 @@
   },
   {
     "id": 17,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
+    "icon": "https://www.svgrepo.com/show/532328/shield-alt-1.svg",
     "location": [39.91289361708239, 41.26557774839536],
     "half": 1,
     "info": {
@@ -205,7 +205,7 @@
   },
   {
     "id": 18,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
+    "icon": "https://www.svgrepo.com/show/334363/walk.svg",
     "location": [41.999838885813205, 24.00574704887257],
     "half": 2,
     "info": {
@@ -217,8 +217,8 @@
   },
   {
     "id": 19,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
-    "location": [48.35474136004984, 38.72743429680736],
+    "icon": "https://www.svgrepo.com/show/347523/sword.svg",
+    "location": [41.67623568859658, 26.621153120572245],
     "half": 2,
     "info": {
       "title": "Взятие Адрианополя русскими войсками",
@@ -229,7 +229,7 @@
   },
   {
     "id": 20,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
+    "icon": "https://www.svgrepo.com/show/347523/sword.svg",
     "location": [39.94500333125973, 41.291042773674235],
     "half": 2,
     "info": {
@@ -241,7 +241,7 @@
   },
   {
     "id": 21,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
+    "icon": "https://www.svgrepo.com/show/347523/sword.svg",
     "location": [42.52054026849245, 26.878546329189064],
     "half": 2,
     "info": {
@@ -253,7 +253,7 @@
   },
   {
     "id": 22,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
+    "icon": "https://www.svgrepo.com/show/486129/contract-sign-line.svg",
     "location": [42.51636128523843, 26.882990250549536],
     "half": 2,
     "info": {
@@ -265,7 +265,7 @@
   },
   {
     "id": 23,
-    "icon": "https://www.svgrepo.com/show/476893/marker.svg",
+    "icon": "https://www.svgrepo.com/show/486129/contract-sign-line.svg",
     "location": [42.52352164332732, 26.877142929457563],
     "half": 2,
     "info": {

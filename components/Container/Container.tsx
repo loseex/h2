@@ -18,25 +18,22 @@ export const Container = () => {
     if (!ShowContainer) return <div></div>;
 
     return (
-        <>
-            <div className={style.container}>
-                <div className="d-flex justify-content-between align-items-center mb-3">
-                    <img src={content.icon} alt="" />
-                    <button onClick={handlerCloseContainer} className={style.close__button}>✕</button>
-                </div>
-                <div className="mb-5">
-                    <img className={`${style.banner__image} mb-3`} src={content.info.image} alt="" />
-                    <h2 className="mb-3">{content.info.title}</h2>
-                    <p className="mb-3">{content.info.date}</p>
-                    <p>{content.info.description}</p>
-                </div>
-                <div>
-                    <input onClick={() => {
-                        window.location.href = `/articles/${content.id}`;
-                    }} className={style.button} type="button" value="Подробнее" />
-                </div>
+        <div className={style.container}>
+            <div className="d-flex justify-content-between align-items-center mb-3">
+                <img className={style.icon} src={content.icon} alt="" />
+                <button onClick={handlerCloseContainer} className={style.close__button}>✕</button>
             </div>
-            <div className={style.background}></div>
-        </>
+            <div className="mb-5">
+                <img className={`${style.banner__image} mb-3`} src={content.info.image} alt="" loading="lazy" />
+                <h2 className="mb-3">{content.info.title}</h2>
+                <p className="mb-3">{content.info.date}</p>
+                <p>{content.info.description}</p>
+            </div>
+            <div>
+                <input onClick={() => {
+                    window.location.href = `/articles/${content.id}`;
+                }} className={style.button} type="button" value="Подробнее" />
+            </div>
+        </div>
     )
 }

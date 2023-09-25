@@ -1,38 +1,19 @@
 .container {
     width: 100%;
     max-width: 560px !important;
-    background: var(--color-black-100);
-    color: var(--color-white-100);
-    border-radius: 0.7rem;
-    display: flex;
     padding: 20px;
-    flex-direction: column;
-    overflow-x: hidden;
-    overflow-y: auto;
+    background-color: var(--color-black-100);
+    height: auto;
+    max-height: 100vh;
+    overflow-y: auto !important;
     animation: on 1s ease-in-out;
-    z-index: 1;
+    display: flex;
+    flex-direction: column;
 }
 
-@media (max-width: 750px) {
-    .container {
-        max-width: 100% !important;
-        border-radius: 0 !important;
-    }
-}
-
-.background {
-    top: 0;
-    left: 0;
-    width: 40%;
-    height: 100%;
-    position: absolute;
-    z-index: 0;
-    background: linear-gradient(83.26deg, rgba(180, 65, 255, 0.87) -136.08%, rgba(104, 119, 255, 0) 78.12%);
-    animation: on 2s;
-}
-
-.container img {
+.container .icon {
     max-width: 28px;
+    filter: invert(100%);
 }
 
 .container .close__button {
@@ -56,6 +37,10 @@
     max-height: 300px;
     object-fit: cover;
     border-radius: 1rem;
+}
+
+.container h2 {
+    line-height: 32px;
 }
 
 .container p {

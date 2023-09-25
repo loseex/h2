@@ -9,14 +9,18 @@ export const Marker = (content: PlacemarkType) => {
     const { updateStateContainer } = useContext(GlobalContext);
 
     const handlerClick = () => {
-        store.dispatch(SelectPoint(content))
+        store.dispatch(SelectPoint(content));
         updateStateContainer(true);
     };
 
     return (
         <Placemark
             geometry={content.location}
-            options={{iconLayout: "default#image", iconImageHref: content.icon, iconOffset: [-5, 0]}}
+            options={{
+                iconLayout: "default#image",
+                iconImageHref: content.icon,
+                iconOffset: [-5, 0]
+            }}
             onClick={handlerClick}
         />
     )
